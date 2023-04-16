@@ -50,5 +50,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         auth.userDetailsService(userDetails)
                 .passwordEncoder(passwordEncoder());
     }
-
+//this is venkat branch changes
 }
