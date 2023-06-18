@@ -14,6 +14,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Role {
+    //this is venkat
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
